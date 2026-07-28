@@ -11,7 +11,7 @@ const projects = [
     name: "SCORN",
     ticker: "$SCORN",
     description: "The cutest red flag on Solana. Just corn, memes and community chaos.",
-    image: "assets/images/scorn.jpg",
+    image: "scorn.jpg",
     contract: "Coming Soon",
     pumpUrl: "",
     status: "PRE-LAUNCH",
