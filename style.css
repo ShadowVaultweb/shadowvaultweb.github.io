@@ -622,3 +622,62 @@ main {
     animation-iteration-count: 1 !important;
   }
 }
+/* Add this block at the end of style.css */
+
+.growth-badge {
+  position: absolute;
+  top: 14px;
+  right: 14px;
+  z-index: 3;
+
+  min-width: 108px;
+  padding: 8px 11px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 7px;
+
+  border: 1px solid rgba(255, 255, 255, 0.16);
+  border-radius: 999px;
+
+  color: var(--text);
+  background: rgba(6, 7, 11, 0.84);
+  backdrop-filter: blur(12px);
+
+  font-size: 0.73rem;
+  white-space: nowrap;
+}
+
+.growth-badge__period {
+  color: var(--muted);
+  font-size: 0.62rem;
+  font-weight: 900;
+  letter-spacing: 0.08em;
+}
+
+.growth-badge__value {
+  font-size: 0.76rem;
+  font-weight: 950;
+}
+
+.growth-badge--positive {
+  color: var(--green);
+  border-color: rgba(128, 240, 192, 0.42);
+  background: rgba(17, 75, 56, 0.84);
+}
+
+.growth-badge--negative {
+  color: var(--danger);
+  border-color: rgba(255, 77, 95, 0.44);
+  background: rgba(91, 20, 31, 0.84);
+}
+
+.growth-badge--neutral {
+  color: var(--gold);
+}
+
+.growth-badge--loading,
+.growth-badge--unavailable {
+  color: var(--muted);
+}
