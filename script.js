@@ -8,14 +8,14 @@
 
 const projects = [
   {
-    name: "SCORN",
-    ticker: "$SCORN",
-    description: "The cutest red flag on Solana. Just corn, memes and community chaos.",
-    image: "scorn.jpg",
-    contract: "Coming Soon",
-    pumpUrl: "",
-    status: "PRE-LAUNCH",
-    locked: false
+  name: "SCORN",
+  ticker: "$SCORN",
+  description: "The cutest red flag on Solana. No fake utility, no guaranteed profits, and no complicated roadmap—just corn, memes, and community chaos.",
+  image: "scorn.jpg",
+  contract: "BkBpR1JRsQM8EGrRrVBGftxdmvAYr1EBoqjnGPfApump",
+  pumpUrl: "https://pump.fun/coin/BkBpR1JRsQM8EGrRrVBGftxdmvAYr1EBoqjnGPfApump",
+  status: "LIVE",
+  locked: false
   },
   { locked: true },
   { locked: true },
