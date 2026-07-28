@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="ShadowVault — a showcase of community-driven meme coin projects." />
+  <meta name="theme-color" content="#07080d" />
+
+  <meta property="og:title" content="ShadowVault" />
+  <meta property="og:description" content="Enter the Vault. Discover our meme coin projects." />
+  <meta property="og:image" content="assets/images/scorn.jpg" />
+  <meta property="og:type" content="website" />
+
+  <title>ShadowVault | Meme Coin Projects</title>
+  <link rel="icon" type="image/jpeg" href="assets/images/scorn.jpg" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="background-grid" aria-hidden="true"></div>
+  <div class="background-glow background-glow--one" aria-hidden="true"></div>
+  <div class="background-glow background-glow--two" aria-hidden="true"></div>
+
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="ShadowVault home">
+      <span class="brand-mark">SV</span>
+      <span>SHADOWVAULT</span>
+    </a>
+
+    <nav class="site-nav" aria-label="Main navigation">
+      <a href="#projects">Projects</a>
+      <a href="https://x.com/ShadowVault7" target="_blank" rel="noopener noreferrer">X / Twitter</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-badge">THE VAULT IS OPEN</div>
+      <h1 id="hero-title">SHADOW<span>VAULT</span></h1>
+      <p>Enter the Vault. Discover our meme coin projects.</p>
+      <a class="hero-button" href="#projects">Explore Projects</a>
+    </section>
+
+    <section class="projects-section" id="projects" aria-labelledby="projects-title">
+      <div class="section-heading">
+        <div>
+          <span class="eyebrow">PROJECT COLLECTION</span>
+          <h2 id="projects-title">Coins inside the Vault</h2>
+        </div>
+        <p>Six project slots. Every launch unlocks a new card.</p>
+      </div>
+
+      <div class="project-grid" id="project-grid" aria-live="polite"></div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div>
+      <strong>SHADOWVAULT</strong>
+      <p>Home of community-driven meme projects.</p>
+    </div>
+    <p class="disclaimer">
+      Meme coins are highly speculative and created for entertainment purposes. Always do your own research.
+    </p>
+    <p class="copyright">© <span id="current-year"></span> ShadowVault. All rights reserved.</p>
+  </footer>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
